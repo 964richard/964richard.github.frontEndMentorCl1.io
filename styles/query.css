@@ -1,0 +1,13 @@
+@media (width < 414px) {
+  article {
+    margin: 2rem;
+    flex-direction: column;
+    width: 27ch;
+    height: 85ch;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+  }
+}/*# sourceMappingURL=query.css.map */

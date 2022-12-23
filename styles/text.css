@@ -1,0 +1,43 @@
+p.text1 {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+p.text3 {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+p.text2 {
+  font-family: Fraunces;
+  color: hsl(212deg, 21%, 14%);
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -1px;
+}
+
+div.price {
+  display: flex;
+}
+
+p.text4 {
+  font-family: Fraunces;
+  font-weight: bold;
+  color: hsl(158deg, 36%, 37%);
+  font-size: 1.5rem;
+}
+
+p.text5 {
+  font-size: 0.8rem;
+  margin: 1.7rem;
+  margin-left: 3rem;
+  text-decoration: line-through;
+  color: hsl(228deg, 12%, 48%);
+}
+
+div.content {
+  margin: 2rem;
+}/*# sourceMappingURL=text.css.map */

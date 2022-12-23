@@ -1,0 +1,59 @@
+@import "text";
+
+body {
+  size: 1440px;
+  font-size: 1rem;
+  background-color: hsl(30, 38%, 92%);
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 100ch;
+  height: 40ch;
+  border-radius: 15px;
+  overflow: hidden;
+  perspective: 1px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+aside {
+  position: relative;
+  width: auto;
+  height: 100%;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  position: relative;
+  width: 25ch;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 15px 15px 0px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  margin-left: 0.1rem;
+  width: 27ch;
+  height: 5.5ch;
+  color: white;
+  font-weight: 550;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: hsl(159, 35%, 25%);
+}
+
+@import "query";
